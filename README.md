@@ -1,3 +1,5 @@
+Copyright (c) Facebook, Inc. and its affiliates.
+
 # mc
 
 Suppose one studies the proportion of "Game of Thrones" fans among males vs females
