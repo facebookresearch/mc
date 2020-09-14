@@ -1,0 +1,17 @@
+Package: mc
+Type: Package
+Title: estimate subgroup means under misclassification
+Description: Methods for estimating the subgroup means when the group information
+    could be wrong.
+Version: 0.0.2
+Date: 2020-08-11
+Authors@R: c(
+    person("Jingang", "miao", email = "jingang@fb.com", role = c("cre", "aut")))
+Encoding: UTF-8
+Maintainer: Jingang Miao <jingang@fb.com>
+License: file LICENSE
+Imports:
+    assertthat
+Suggests:
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1
