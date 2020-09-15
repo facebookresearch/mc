@@ -8,7 +8,42 @@ but the source of gender is not reliable. Naively ignoring gender misclassificat
 can give misleading results. We have implemented estimators in both python and R for
 misclassification correction (mc), which achieve much smaller bias and MSE than the
 naive estimator.
+## Installation
 
+The easiest way is propably using pip:
+
+```
+pip install -q git+https://github.com/facebookresearch/mc
+```
+
+If you are using a machine without admin rights, you can do:
+
+```
+pip install -q git+https://github.com/facebookresearch/mc --user
+```
+
+If you are using [Google Colab](https://colab.research.google.com/), just add
+"!" to the beginning:
+
+```
+!pip install -q git+https://github.com/facebookresearch/mc
+```
+
+Package works for python 3 and R.
+
+## Usage
+Package can be imported as
+
+```python
+import mc
+```
+
+The best way to learn how to use the package is probably by following one of the
+notebooks, and the recommended way of opening them is Google Colab.
+
+* Survey calibration
+   - [Python](./notebooks/simulations_py.ipynb)
+ 
 # Methods
 
 A method of moments (MOM) based method was proposed by Selén (1986):
