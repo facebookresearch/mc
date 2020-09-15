@@ -43,7 +43,7 @@
 #'         with_y_V: estimates using all data, including the y value in the
 #'             validation data.
 #' @export
-mc_momm = function(n_jd_P, y_sum_jd_P, n_ji_V, y_sum_ji_V=NULL) {
+mc_mom = function(n_jd_P, y_sum_jd_P, n_ji_V, y_sum_ji_V=NULL) {
 
     assertthat::assert_that(is.vector(n_jd_P))
     m = length(n_jd_P)
