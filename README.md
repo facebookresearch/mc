@@ -38,11 +38,17 @@ Package can be imported as
 import mc
 ```
 
+```R
+library(devtools)
+install_github("facebookresearch/mc")
+library(mc)
+```
+
 The best way to learn how to use the package is probably by following one of the
 notebooks, and the recommended way of opening them is Google Colab.
 
-* Survey calibration
-   - [Python](./notebooks/simulations_py.ipynb)
+* [Python](./notebooks/simulations_py.ipynb)
+* [R](./notebooks/simulations_R.ipynb)
  
 # Methods
 
