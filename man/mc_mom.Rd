@@ -2,10 +2,9 @@
 % Please edit documentation in R/mc_mom.R
 \name{mc_mom}
 \alias{mc_mom}
-\alias{mc_momm}
 \title{Misclassification correction via mothod of moments}
 \usage{
-mc_momm(n_jd_P, y_sum_jd_P, n_ji_V, y_sum_ji_V = NULL)
+mc_mom(n_jd_P, y_sum_jd_P, n_ji_V, y_sum_ji_V = NULL)
 }
 \arguments{
 \item{n_jd_P}{length-m vector of counts in the primary data by misclassified
