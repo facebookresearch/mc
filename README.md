@@ -10,7 +10,8 @@ misclassification correction (mc), which achieve much smaller bias and MSE than 
 naive estimator.
 ## Installation
 
-The easiest way is propably using pip:
+### Python
+For python, the easiest way is propably using pip:
 
 ```
 pip install -q git+https://github.com/facebookresearch/mc
@@ -29,26 +30,29 @@ If you are using [Google Colab](https://colab.research.google.com/), just add
 !pip install -q git+https://github.com/facebookresearch/mc
 ```
 
-Package works for python 3 and R.
-
-## Usage
 Package can be imported as
 
 ```python
 import mc
 ```
 
+Package works for python 3 and R.
+
+### R
+For R, you can do
+
 ```R
 library(devtools)
 install_github("facebookresearch/mc")
 library(mc)
 ```
+## Usage
 
 The best way to learn how to use the package is probably by following one of the
 notebooks, and the recommended way of opening them is Google Colab.
 
-* [Python](./notebooks/simulations_py.ipynb)
-* [R](./notebooks/simulations_R.ipynb)
+* [Python notebook](./notebooks/simulations_py.ipynb)
+* [R notebook](./notebooks/simulations_R.ipynb)
  
 # Methods
 
