@@ -36,7 +36,7 @@ Package can be imported as
 import mc
 ```
 
-Package works for python 3 and R.
+Package works for python 3.6 and above.
 
 ### R
 For R, you can do
