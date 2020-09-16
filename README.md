@@ -202,5 +202,8 @@ when independence holds AND primary data is huge.
 It’s a good practice to calculate all estimates to compare and contrast,
 which fortunately is fairly easy with the implemented functions here.
 
+# Extensions
+* For regression problem, check out mcsimex (https://pubmed.ncbi.nlm.nih.gov/16542233/).
+
 ## People
 Package is created and maintained by Jingang Miao.
