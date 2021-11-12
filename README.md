@@ -92,7 +92,7 @@ MOM assumes that misclassification is independent of Y and thus can perform poor
 if this assumption is violated.
 
 A restricted maximum likelihood (RMLE) approach was developed by Mak & Li (1988).
->T. K. MAK, W. K. LI, A new method for estimating subgroup means under
+>T. K. MAK, W. K. Li, A new method for estimating subgroup means under
 misclassification, Biometrika, Volume 75, Issue 1, March 1988, Pages 105–111.
 https://doi.org/10.1093/biomet/75.1.105
 
